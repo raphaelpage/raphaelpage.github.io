@@ -1,0 +1,11 @@
+# Site settings
+title: Raphaël Pagé
+email: contact@raphaelpage.me
+description: ""
+baseurl: ""
+url: "http://raphaelpage.me"
+github_username: raphaelpage
+
+# Build settings
+markdown: kramdown
+permalink: pretty
