@@ -4,6 +4,7 @@ email: contact@raphaelpage.me
 description: Raphaël Pagé’s personal website.
 baseurl: ""
 url: http://raphaelpage.me
+last_modified_at: 2015-07-11
 
 # Author settings
 firstname: Raphaël
@@ -15,7 +16,3 @@ googleplus_username: "+RaphaëlPagé"
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-# Gems
-gems:
-  - jekyll-last-modified-at
