@@ -1,0 +1,53 @@
+---
+---
+@charset "utf-8";
+
+p.-update {
+  text-align: right;
+  font-size: .8em;
+  font-style: italic;
+}
+
+span.-period {
+  vertical-align: top;
+  display: inline-block;
+  width: 100px;
+  margin-right: 5px;
+  padding-top: .15em;
+  font-size: .85em;
+}
+span.-element {
+  vertical-align: top;
+  display: inline-block;
+  max-width: calc(100% - 100px - 10px);
+}
+span.-nobreak {
+  white-space: nowrap;
+}
+
+sup {
+  font-size: .68em;
+}
+
+.-less {
+  font-size: .9em;
+  color: #828282;
+}
+
+img.icon {
+  width: 16px;
+  height: 16px;
+}
+
+figure.-right {
+  float: right;
+  max-width: 200px;
+  text-align: center;
+}
+
+img.-image {
+  border-radius: 50%;
+  box-shadow: 0 0 2em #828282;
+  max-width: 180px;
+  max-height: 180px;
+}

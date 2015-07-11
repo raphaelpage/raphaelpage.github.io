@@ -1,11 +1,21 @@
 # Site settings
 title: Raphaël Pagé
 email: contact@raphaelpage.me
-description: ""
+description: Raphaël Pagé’s personal website.
 baseurl: ""
-url: "http://raphaelpage.me"
+url: http://raphaelpage.me
+
+# Author settings
+firstname: Raphaël
+lastname: Pagé
 github_username: raphaelpage
+linkedin_username: raphaelpage
+googleplus_username: "+RaphaëlPagé"
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Gems
+gems:
+  - jekyll-last-modified-at

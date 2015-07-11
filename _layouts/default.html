@@ -1,20 +1,21 @@
 <!doctype html>
-<html>
-
+<html lang="fr">
   {% include head.html %}
 
   <body>
-
     {% include header.html %}
 
     <div class="page-content">
       <div class="wrapper">
+        <figure class="-right">
+          <p><img class="-image" src="{{ "/images/identity.jpg" | prepend: site.baseurl }}"></p>
+          <p><em class="-less">Credit: Lê Bình Tú (<a href="http://www.lebinhtu.com" target="_blank">www.lebinhtu.com</a>)</em></p>
+        </figure>
+        <h1>{{ page.title }}</h1>
         {{ content }}
       </div>
     </div>
 
     {% include footer.html %}
-
   </body>
-
 </html>
