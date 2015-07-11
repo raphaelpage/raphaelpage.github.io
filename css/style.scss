@@ -12,6 +12,7 @@ span.-period {
   vertical-align: top;
   display: inline-block;
   width: 100px;
+  max-width: 25%;
   margin-right: 5px;
   padding-top: .15em;
   font-size: .85em;
@@ -19,6 +20,7 @@ span.-period {
 span.-element {
   vertical-align: top;
   display: inline-block;
+  min-width: calc(75% - 10px);
   max-width: calc(100% - 100px - 10px);
 }
 span.-nobreak {
@@ -39,15 +41,37 @@ img.icon {
   height: 16px;
 }
 
-figure.-right {
-  float: right;
-  max-width: 200px;
-  text-align: center;
+.site-nav {
+  z-index: 2;
 }
-
-img.-image {
-  border-radius: 50%;
-  box-shadow: 0 0 2em #828282;
-  max-width: 180px;
-  max-height: 180px;
+figure.-right {
+  z-index: 1;
+  position: relative;
+  float: right;
+  margin-left: 20px;
+  max-width: 200px;
+  max-width: 40%;
+  text-align: center;
+  img {
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0 0 2em #828282;
+    max-width: 180px;
+    max-width: 100%;
+    max-height: 180px;
+  }
+  p {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    font-size: .8em;
+    font-style: italic;
+  }
+  &:hover img {
+    opacity: .3;
+  }
+  &:hover p {
+    display: block;
+  }
 }
