@@ -11,7 +11,9 @@
           <img src="{{ "/images/identity.jpg" | prepend: site.baseurl }}">
           <p>Credit: Lê Bình Tú (<a href="http://www.lebinhtu.com" target="_blank">www.lebinhtu.com</a>)</p>
         </figure>
+        {% if page.title %}
         <h1>{{ page.title }}</h1>
+        {% endif %}
         {{ content }}
       </div>
     </div>
