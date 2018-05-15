@@ -1,3 +1,9 @@
 _site
 .sass-cache
 .DS_Store
+css/
+doctor/
+documents/
+images/
+favicon.png
+old-index.html
